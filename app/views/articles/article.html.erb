@@ -4,3 +4,5 @@
   <p> <%= link_to "Auteur : " ,user_path(@article.user_id)%> <%= @user.find(@article.user_id).first_name%></p>
   <% tab_date = ["13/01/2019", "25/11/2007", "12/09/2018", "23/05/2006"] %>
   <p>Date de creation : <%= tab_date.sample %>
+  <p><a <%= link_to "Retour", home_index_path %></a></p>
+
