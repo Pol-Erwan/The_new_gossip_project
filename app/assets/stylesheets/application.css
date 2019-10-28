@@ -13,9 +13,3 @@
  *= require_tree .
  *= require_self
  */
-
-{
-  color: #3399F3;
-  text-decoration: none;
-  background-color: yellow;
-}
